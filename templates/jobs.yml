@@ -1,0 +1,7 @@
+# File: templates/jobs.yml
+jobs:
+- job: Windows
+  pool:
+    vmImage: 'windows-latest'
+  steps:
+  - bash: echo "Hello Windows"
